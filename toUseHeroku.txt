@@ -1,0 +1,121 @@
+10431  24.2.2022 14:53  sudo apt-get install snap
+10432  24.2.2022 14:53  ls
+10433  24.2.2022 14:54  cd testHeroku
+10434  24.2.2022 14:54  ls
+10435  24.2.2022 14:54  sudo snap install heroku --classic
+10436  24.2.2022 14:59  heroku login
+10437  24.2.2022 15:00  sudo snap list
+10438  24.2.2022 15:05  heroku login
+10439  24.2.2022 15:06  sudo snap install snap-store
+10440  24.2.2022 15:06  snap heroku
+10441  24.2.2022 15:07  sudo snap install heroku
+10442  24.2.2022 15:07  snap help refresh
+10443  24.2.2022 15:11  heroku
+10444  24.2.2022 15:12  snap install heroku
+10445  24.2.2022 15:13  heroku
+10446  24.2.2022 15:13  snap refresh heroku
+10447  24.2.2022 15:23  snap heroku which
+10448  24.2.2022 15:23  snap heroku list
+10449  24.2.2022 15:23  snap list
+10450  24.2.2022 15:24  sudo find / 2> /dev/null | grep -i heroku
+10451  24.2.2022 15:28  /snap/bin/heroku --help
+10452  24.2.2022 15:28  /snap/bin/heroku help
+10453  24.2.2022 15:29  vim /etc/environment
+10454  24.2.2022 15:30  source /etc/environment
+10455  24.2.2022 15:39  heroku login
+10456* 24.2.2022 15:41  git clone https://github.com/heroku/go-getting-started.git
+10457* 24.2.2022 15:42  cd go-getting-started
+10458* 24.2.2022 15:42  ls
+10459* 24.2.2022 15:42  cat Dockerfile
+10460* 24.2.2022 15:42  ls
+10461* 24.2.2022 15:42  heroku create
+10462  24.2.2022 15:43  git clone https://github.com/heroku/go-getting-started.git
+10463  24.2.2022 15:43  cd go-getting-started
+10464  24.2.2022 15:43  heroku create
+10465  24.2.2022 15:43  git remote
+10466  24.2.2022 15:44  git push heroku main
+10467  24.2.2022 15:45  ls
+10468  24.2.2022 15:45  vim go.mod
+10469  24.2.2022 15:46  ls
+10470  24.2.2022 15:46  cat Makefile
+10471  24.2.2022 15:46  heroku open
+10472  24.2.2022 15:47  ls
+10473  24.2.2022 15:47  vim heroku.yml
+10474  24.2.2022 15:47  vim Procfile
+10475  24.2.2022 15:47  vim go.sum
+10476  24.2.2022 15:47  ls
+10477  24.2.2022 15:47  vim app.json
+10478  24.2.2022 15:47  vim main.go
+10479  24.2.2022 15:48  vim templates
+10480  24.2.2022 15:49  git status
+10481  24.2.2022 15:49  git commit add -p
+10482  24.2.2022 15:49  git add -p
+10483  24.2.2022 15:49  git status
+10484  24.2.2022 15:49  git commit -m "test:Change in heroku"
+10485  24.2.2022 15:49  git status
+10486  24.2.2022 15:49  git push heroku main
+10487  24.2.2022 15:51  heroku logs --tail
+10488  24.2.2022 15:52  ls
+10489  24.2.2022 15:52  cd static
+10490  24.2.2022 15:52  ls
+10491  24.2.2022 15:52  cd ..
+10492  24.2.2022 15:52  cd vendor
+10493  24.2.2022 15:52  ls
+10494  24.2.2022 15:52  cat modules.txt
+10495  24.2.2022 15:52  cd ..
+10496  24.2.2022 15:52  ls
+10497  24.2.2022 15:52  cat Procfile
+10498  24.2.2022 15:52  vim heroku.yml
+10499  24.2.2022 15:52  vim Makefile
+10500  24.2.2022 15:53  ls
+10501  24.2.2022 15:53  vim main.go
+10502  24.2.2022 15:54  ls
+10503  24.2.2022 15:54  cat static
+10504  24.2.2022 15:54  ls static
+10505  24.2.2022 15:54  ls templates
+10506  24.2.2022 15:54  ls -la
+10507  24.2.2022 15:54  vim .env
+10508  24.2.2022 15:54  vim Makefile
+10509  24.2.2022 15:55  make
+10510  24.2.2022 15:55  ls
+10511  24.2.2022 15:55  vim Dockerfile
+10512  24.2.2022 15:56  docker build .
+10513* 24.2.2022 16:05  heroku ps
+10514* 24.2.2022 16:05  source /etc/environment
+10515* 24.2.2022 16:05  heroku ps
+10516* 24.2.2022 16:08  heroku ps:scale web=0
+10517* 24.2.2022 16:08  heroku ps:scale web=1
+10518* 24.2.2022 16:12  go build -o bin/go-getting-started -v .
+10519* 24.2.2022 16:13  go --version
+10520* 24.2.2022 16:14  vim ~/.bashrc
+10521* 24.2.2022 16:15  vim ~/.zshrc
+10522* 24.2.2022 16:16  ls /etc/local/
+10523* 24.2.2022 16:17  ls /usr/local
+10524* 24.2.2022 16:17  ls /usr/local/go/bin/go
+10525* 24.2.2022 16:17  /usr/local/go/bin/go build -o bin/go-getting-started -v .
+10526* 24.2.2022 16:17  ls
+10527* 24.2.2022 16:18  ./bin/go-getting-started
+10528* 24.2.2022 16:18  PORT=9090
+10529* 24.2.2022 16:18  export PORT=9090
+10530* 24.2.2022 16:18  ./bin/go-getting-started
+10531* 24.2.2022 16:19  /usr/local/go/bin/go build -o bin/go-getting-started -v .
+10532* 24.2.2022 16:19  ls
+10533  24.2.2022 16:19  docker images
+10534  24.2.2022 16:19  docker ps
+10535* 24.2.2022 16:20  vim ~/.zshrc
+10536* 24.2.2022 16:20  go
+10537* 24.2.2022 16:20  vim ~/.zshrc
+10538* 24.2.2022 16:21  go
+10539* 24.2.2022 16:21  source ~/.zshrc
+10540* 24.2.2022 16:21  go --version
+10541* 24.2.2022 16:21  go build -o bin/go-getting-started -v .
+10542* 24.2.2022 16:21  ls
+10543* 24.2.2022 16:22  heroku local web
+10544* 24.2.2022 16:22  source /etc/environment
+10545* 24.2.2022 16:22  echo $PATH
+10546* 24.2.2022 16:23  cat ~/.zshrc
+10547* 24.2.2022 16:23  vim ~/.zshrc
+10548* 24.2.2022 16:24  source ~/.zshrc
+10549* 24.2.2022 16:24  go --version
+10550* 24.2.2022 16:24  heroku version
+10551* 24.2.2022 16:25  heroku local web

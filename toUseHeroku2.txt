@@ -1,0 +1,249 @@
+10433  24.2.2022 14:54  cd testHeroku
+10434  24.2.2022 14:54  ls
+10435  24.2.2022 14:54  sudo snap install heroku --classic
+10436  24.2.2022 14:59  heroku login
+10437  24.2.2022 15:00  sudo snap list
+10438  24.2.2022 15:05  heroku login
+10439  24.2.2022 15:06  sudo snap install snap-store
+10440  24.2.2022 15:06  snap heroku
+10441  24.2.2022 15:07  sudo snap install heroku
+10442  24.2.2022 15:07  snap help refresh
+10443  24.2.2022 15:11  heroku
+10444  24.2.2022 15:12  snap install heroku
+10445  24.2.2022 15:13  heroku
+10446  24.2.2022 15:13  snap refresh heroku
+10447  24.2.2022 15:23  snap heroku which
+10448  24.2.2022 15:23  snap heroku list
+10449  24.2.2022 15:23  snap list
+10450  24.2.2022 15:24  sudo find / 2> /dev/null | grep -i heroku
+10451  24.2.2022 15:28  /snap/bin/heroku --help
+10452  24.2.2022 15:28  /snap/bin/heroku help
+10453  24.2.2022 15:29  vim /etc/environment
+10454  24.2.2022 15:30  source /etc/environment
+10455  24.2.2022 15:30  heroku login
+10456  24.2.2022 15:41  git clone https://github.com/heroku/go-getting-started.git
+10457  24.2.2022 15:42  cd go-getting-started
+10458  24.2.2022 15:42  ls
+10459  24.2.2022 15:42  cat Dockerfile
+10460  24.2.2022 15:42  ls
+10461  24.2.2022 15:42  heroku create
+10462  24.2.2022 15:43  git clone https://github.com/heroku/go-getting-started.git
+10463  24.2.2022 15:43  cd go-getting-started
+10464  24.2.2022 15:43  heroku create
+10465  24.2.2022 15:43  git remote
+10466  24.2.2022 15:44  git push heroku main
+10467  24.2.2022 15:45  ls
+10468  24.2.2022 15:45  vim go.mod
+10469  24.2.2022 15:46  ls
+10470  24.2.2022 15:46  cat Makefile
+10471  24.2.2022 15:46  heroku open
+10472  24.2.2022 15:47  ls
+10473  24.2.2022 15:47  vim heroku.yml
+10474  24.2.2022 15:47  vim Procfile
+10475  24.2.2022 15:47  vim go.sum
+10476  24.2.2022 15:47  ls
+10477  24.2.2022 15:47  vim app.json
+10478  24.2.2022 15:47  vim main.go
+10479  24.2.2022 15:48  vim templates
+10480  24.2.2022 15:49  git status
+10481  24.2.2022 15:49  git commit add -p
+10482  24.2.2022 15:49  git add -p
+10483  24.2.2022 15:49  git status
+10484  24.2.2022 15:49  git commit -m "test:Change in heroku"
+10485  24.2.2022 15:49  git status
+10486  24.2.2022 15:49  git push heroku main
+10487  24.2.2022 15:51  heroku logs --tail
+10488  24.2.2022 15:52  ls
+10489  24.2.2022 15:52  cd static
+10490  24.2.2022 15:52  ls
+10491  24.2.2022 15:52  cd ..
+10492  24.2.2022 15:52  cd vendor
+10493  24.2.2022 15:52  ls
+10494  24.2.2022 15:52  cat modules.txt
+10495  24.2.2022 15:52  cd ..
+10496  24.2.2022 15:52  ls
+10497  24.2.2022 15:52  cat Procfile
+10498  24.2.2022 15:52  vim heroku.yml
+10499  24.2.2022 15:52  vim Makefile
+10500  24.2.2022 15:53  ls
+10501  24.2.2022 15:53  vim main.go
+10502  24.2.2022 15:54  ls
+10503  24.2.2022 15:54  cat static
+10504  24.2.2022 15:54  ls static
+10505  24.2.2022 15:54  ls templates
+10506  24.2.2022 15:54  ls -la
+10507  24.2.2022 15:54  vim .env
+10508  24.2.2022 15:54  vim Makefile
+10509  24.2.2022 15:55  make
+10510  24.2.2022 15:55  ls
+10511  24.2.2022 15:55  vim Dockerfile
+10512  24.2.2022 15:56  docker build .
+10513  24.2.2022 16:05  heroku ps
+10514  24.2.2022 16:05  source /etc/environment
+10515  24.2.2022 16:05  heroku ps
+10516  24.2.2022 16:08  heroku ps:scale web=0
+10517  24.2.2022 16:08  heroku ps:scale web=1
+10518  24.2.2022 16:12  go build -o bin/go-getting-started -v .
+10519  24.2.2022 16:13  go --version
+10520  24.2.2022 16:14  vim ~/.bashrc
+10521  24.2.2022 16:15  vim ~/.zshrc
+10522  24.2.2022 16:16  ls /etc/local/
+10523  24.2.2022 16:17  ls /usr/local
+10524  24.2.2022 16:17  ls /usr/local/go/bin/go
+10525  24.2.2022 16:17  /usr/local/go/bin/go build -o bin/go-getting-started -v .
+10526  24.2.2022 16:17  ls
+10527  24.2.2022 16:18  ./bin/go-getting-started
+10528  24.2.2022 16:18  PORT=9090
+10529  24.2.2022 16:18  export PORT=9090
+10530  24.2.2022 16:18  ./bin/go-getting-started
+10531  24.2.2022 16:19  /usr/local/go/bin/go build -o bin/go-getting-started -v .
+10532  24.2.2022 16:19  ls
+10533* 24.2.2022 16:19  docker images
+10534* 24.2.2022 16:19  docker ps
+10535  24.2.2022 16:20  vim ~/.zshrc
+10536  24.2.2022 16:20  go
+10537  24.2.2022 16:20  vim ~/.zshrc
+10538  24.2.2022 16:21  go
+10539  24.2.2022 16:21  source ~/.zshrc
+10540  24.2.2022 16:21  go --version
+10541  24.2.2022 16:21  go build -o bin/go-getting-started -v .
+10542  24.2.2022 16:21  ls
+10543  24.2.2022 16:22  heroku local web
+10544  24.2.2022 16:22  source /etc/environment
+10545  24.2.2022 16:22  echo $PATH
+10546  24.2.2022 16:23  cat ~/.zshrc
+10547  24.2.2022 16:23  vim ~/.zshrc
+10548  24.2.2022 16:24  source ~/.zshrc
+10549  24.2.2022 16:24  go --version
+10550  24.2.2022 16:24  heroku version
+10551  24.2.2022 16:25  heroku local web
+10552* 24.2.2022 16:27  history > toUseHeroku.txt
+10553  24.2.2022 16:28  go get github.com/russross/blackfriday@v2
+10554  24.2.2022 16:28  cat go.mod
+10555  24.2.2022 16:28  cat go.sum
+10556  24.2.2022 16:29  vim main.go
+10557  24.2.2022 16:33  go build -o bin/go-getting-started -v .
+10558  24.2.2022 16:34  vim go.mod
+10559  24.2.2022 16:34  go --version
+10560  24.2.2022 16:34  go version
+10561  24.2.2022 16:35  go build -o bin/go-getting-started -v .
+10562  24.2.2022 16:35  vim vendor/modules.txt
+10563  24.2.2022 16:36  go build -o bin/go-getting-started -v .
+10564  24.2.2022 16:36  git status
+10565  24.2.2022 16:36  git checkout -- vendor/modules.txt
+10566  24.2.2022 16:36  git status
+10567  24.2.2022 16:37  go build -o bin/go-getting-started -v .
+10568  24.2.2022 16:37  go mod vendor
+10569  24.2.2022 16:37  go build -o bin/go-getting-started -v .
+10570  24.2.2022 16:37  heroku local
+10571  24.2.2022 16:38  heroku open mark
+10572  24.2.2022 16:38  heroku local open mark
+10573  24.2.2022 16:38  heroku local mark
+10574  24.2.2022 16:38  vim .env
+10575* 24.2.2022 16:38  heroku local
+10576  24.2.2022 16:40  go mod tidy
+10577  24.2.2022 16:40  go mod vendor
+10578  24.2.2022 16:40  git statyus
+10579  24.2.2022 16:40  git status
+10580  24.2.2022 16:40  git add -p
+10581  24.2.2022 16:40  git status
+10582  24.2.2022 16:41  git add help
+10583  24.2.2022 16:41  git add --help
+10584  24.2.2022 16:42  git add vendor/github.com/russross/
+10585  24.2.2022 16:42  git add vendor/github.com/shurcooL/
+10586  24.2.2022 16:42  git status
+10587  24.2.2022 16:42  git add toUseHeroku.txt
+10588  24.2.2022 16:42  git status
+10589  24.2.2022 16:43  git commit -m "Add Markdown demo dependendy"
+10590  24.2.2022 16:43  git status
+10591  24.2.2022 16:43  git push heroku main
+10592  24.2.2022 16:44  git status
+10593  24.2.2022 16:44  heroku open mark
+10594  24.2.2022 16:50  heroku addons:create papertrail
+10595  24.2.2022 16:50  heroku addons
+10596  24.2.2022 16:53  heroku run bash
+10597  24.2.2022 18:25  vim main.go
+10598  24.2.2022 18:33  go build bin/go-getting-started -v .
+10599  24.2.2022 18:33  go build -o bin/go-getting-started -v .
+10600  24.2.2022 18:33  vim main.go
+10601  24.2.2022 18:34  go build -o bin/go-getting-started -v .
+10602  24.2.2022 18:34  vim main.go
+10603  24.2.2022 18:35  go build -o bin/go-getting-started -v .
+10604  24.2.2022 18:35  heroku local web
+10605  24.2.2022 18:36  git status
+10606  24.2.2022 18:36  git diff HEAd
+10607  24.2.2022 18:36  HEAD
+10608  24.2.2022 18:36  git diff HEAD
+10609  24.2.2022 18:37  heroku config:set REPEAT=10
+10610  24.2.2022 18:37  heroku config
+10611  24.2.2022 18:37  git status
+10612  24.2.2022 18:37  git add -p
+10613  24.2.2022 18:37  git status
+10614  24.2.2022 18:38  git commit -m "Add repeat environment"
+10615  24.2.2022 18:38  git status
+10616  24.2.2022 18:38  git push heroku main
+10617  24.2.2022 18:39  heroku open repeat
+10618  24.2.2022 18:39  heroku config:set REPEAT=30
+10619  24.2.2022 18:40  heroku ps:scale web=0
+10620  25.2.2022 09:48  heroku ps:scale web=1
+10621  25.2.2022 09:50  heroku addons:create heroku-postgresql:hobby-dev
+10622  25.2.2022 09:50  heroku config
+10623  25.2.2022 09:51  heroku pg
+10624  25.2.2022 09:52  go get github.com/lib/pg@v1
+10625  25.2.2022 09:53  go get github.com/lib/pq@v1
+10626  25.2.2022 10:05  vim main.go
+10627  25.2.2022 10:09  go mod tidy
+10628  25.2.2022 10:09  go mod vendor
+10629  25.2.2022 10:09  git status
+10630  25.2.2022 10:09  git add -A .
+10631  25.2.2022 10:09  git status
+10632  25.2.2022 10:09  git commit -m "/db"
+10633  25.2.2022 10:10  git push heroku main
+10634  25.2.2022 10:11  heroku open db
+10635  25.2.2022 10:11  heroku logs --tail
+10636  25.2.2022 10:12  go build -o bin/go-getting-started -v .
+10637  25.2.2022 10:12  heroku run
+10638  25.2.2022 10:12  heroku run bash
+10639  25.2.2022 10:13  echo $DATABASE_URL
+10640  25.2.2022 10:14  export DATABASE_URL=<linha pra base de dados do postgree>
+10641  25.2.2022 10:14  heroku local
+10642  25.2.2022 10:17  vim main.go
+10643  25.2.2022 10:19  git status
+10644  25.2.2022 10:20  heroku pg:psql
+10645  25.2.2022 10:20  heroku ps:psql
+10646  25.2.2022 10:20  n
+10647  25.2.2022 10:20  heroku run bash
+10648  25.2.2022 10:21  vim main.go
+10649  25.2.2022 10:24  go build -o bin/go-getting-started -v .
+10650  25.2.2022 10:24  heroku local
+10651  25.2.2022 10:25  git status
+10652  25.2.2022 10:25  git add -p
+10653  25.2.2022 10:25  git status
+10654  25.2.2022 10:25  git commit "hotfix in /db route"
+10655  25.2.2022 10:25  git commit -m "hotfix in /db route"
+10656  25.2.2022 10:25  git status
+10657  25.2.2022 10:25  git push heroku main
+10658  25.2.2022 10:26  heroku open db
+10659  25.2.2022 10:28  git log
+10660  25.2.2022 10:29  git rebase -i 3137620654274865184783b243796311ee5fb88f
+10661  25.2.2022 10:31  git commit --amend --author="Michael Bittencourt <mchl.bittencourt@gmail.com>" --no-edit
+10662  25.2.2022 10:31  git rebase --continue
+10663  25.2.2022 10:31  git commit --amend --author="Michael Bittencourt <mchl.bittencourt@gmail.com>" --no-edit
+10664  25.2.2022 10:31  git rebase --continue
+10665  25.2.2022 10:31  git commit --amend --author="Michael Bittencourt <mchl.bittencourt@gmail.com>" --no-edit
+10666  25.2.2022 10:31  git rebase --continue
+10667  25.2.2022 10:31  git commit --amend --author="Michael Bittencourt <mchl.bittencourt@gmail.com>" --no-edit
+10668  25.2.2022 10:31  git rebase --continue
+10669  25.2.2022 10:31  git log
+10670  25.2.2022 10:34  git remote remove origin
+10671  25.2.2022 10:34  git remote add origin git@github.com:MichaelBittencourt/herokuGetStartedWithGoLang.git
+10672  25.2.2022 10:34  git log
+10673  25.2.2022 10:35  git push -u origin main
+10674  25.2.2022 10:36  git log
+10675  25.2.2022 10:36  git push heroku main
+10676  25.2.2022 10:36  git push heroku main -f
+10677  25.2.2022 10:37  git log
+10678  25.2.2022 10:41  git status
+10679  25.2.2022 10:41  git log
+10680  25.2.2022 10:45  heroku ps:scale web=0
+10681  25.2.2022 10:46  ls
