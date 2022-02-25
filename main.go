@@ -34,6 +34,12 @@ func dbFunc(db *sql.DB) gin.HandlerFunc {
 			return
 		}
 
+		if _, err := db.Exec("INSERT INTO ticks VALUES (now())"); err != nil {
+			c.String(http.StatusInternalServerError,
+				fmt.Sprintf("Error incrementing ticks: %q", err))
+			return
+		}
+
 		rows, err := db.Query("SELECT tick FROM ticks")
 		if err != nil {
 			c.String(http.StatusInternalServerError,
